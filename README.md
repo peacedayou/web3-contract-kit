@@ -1,3 +1,5 @@
+> **⚠️ Projet éducatif — portfolio étudiant.** Ce dépôt n'est ni un produit ni un service commercial : aucune vente, aucun abonnement, aucun déploiement en production. À ne pas exécuter avec des fonds ou des données réels.
+
 # Web3 Contract Kit
 
 ![CI](https://github.com/peacedayou/web3-contract-kit/actions/workflows/ci.yml/badge.svg)
