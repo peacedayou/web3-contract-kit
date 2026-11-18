@@ -16,6 +16,15 @@ besoins les plus courants d'un projet Web3 : **répartir des jetons dans le temp
 | [`MerkleAirdrop`](src/MerkleAirdrop.sol) | Distribuer des jetons à des milliers d'adresses pour un coût fixe | Preuves de Merkle compatibles avec `StandardMerkleTree` d'OpenZeppelin, suivi des réclamations par bitmap, date limite et récupération des jetons non réclamés |
 | [`SimpleMultisig`](src/SimpleMultisig.sol) | Trésorerie partagée M-sur-N | Soumission, confirmation, révocation, exécution d'appels arbitraires ; le seuil ne change que par un vote des propriétaires |
 
+## Ça vous intéresse ?
+
+**Pour qui :** Projets Web3 qui doivent distribuer des jetons (vesting, airdrop) ou sécuriser une trésorerie partagée sans repartir de zéro.
+
+- ⭐ Ajoutez une étoile ou suivez le dépôt (**Watch**) pour être prévenu des nouvelles versions.
+- 📝 Dites-moi votre besoin : [ouvrez une fiche « Je suis intéressé »](https://github.com/peacedayou/web3-contract-kit/issues/new?template=interet.yml).
+  Cela m'aide à choisir les prochaines fonctions. Aucune vente ni aucun engagement : c'est une simple liste d'intérêt.
+- 💬 Une question ou une idée ? Ouvrez une *issue* ; je réponds en français ou en anglais.
+
 ## Qualité
 
 - **Tests unitaires** de chaque chemin, y compris les cas d'erreur

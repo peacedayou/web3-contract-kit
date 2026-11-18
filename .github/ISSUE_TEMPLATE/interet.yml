@@ -1,0 +1,27 @@
+name: Je suis intéressé
+description: Dites-nous comment vous utiliseriez web3-contract-kit (liste d'intérêt, sans engagement)
+title: "[Intérêt] "
+labels: ["interet"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci ! Cette fiche est **publique** : n'y mettez ni courriel, ni téléphone, ni adresse de portefeuille personnelle.
+        Ce projet est éducatif : rien n'est vendu ici, vos réponses servent à orienter les prochaines fonctions.
+  - type: dropdown
+    id: profil
+    attributes:
+      label: Vous êtes
+      options: [Particulier, Association ou OBNL, Entreprise en démarrage, Équipe de développement, Autre]
+    validations: { required: true }
+  - type: textarea
+    id: besoin
+    attributes:
+      label: Votre besoin
+      description: Que voulez-vous faire, et comment le faites-vous aujourd'hui ?
+    validations: { required: true }
+  - type: textarea
+    id: manque
+    attributes:
+      label: Ce qui manque
+      description: Qu'est-ce qui vous empêcherait de l'utiliser dès maintenant ?
